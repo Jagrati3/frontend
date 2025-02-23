@@ -25,11 +25,12 @@ The project follows a modular structure with components and pages organized for 
 ```
 src/
 ├── components/
-│   └── Navbar.jsx
+│   └── Navbar.js
 ├── pages/
-│   ├── Home.jsx
-│   ├── Login.jsx
-│   └── Register.jsx
+│   ├── auth.js
+│   ├── create-recipe.js
+│   └── home.js
+|   |__saved-recipe.js
 ├── App.js
 ├── index.js
 └── styles.css
